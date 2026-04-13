@@ -4,9 +4,9 @@ import { bookOutline, key, search, star } from "ionicons/icons";
 import { Redirect, Route } from "react-router";
 import Favorites from "./home-tabs/Favorite";
 import Feed from "./home-tabs/Feed";
-import Search from "./home-tabs/Search";
+import Search from "./home-tabs/Search"; 
 
-const Home: React.FC = () => {
+const About: React.FC = () => {
   const Tabs = [
     {name: "Feed", tab: 'feed',url: "/app/home/feed", icon:bookOutline},
     {name: "Search", tab: 'search',url: "/app/home/search", icon:search},
@@ -40,4 +40,4 @@ const Home: React.FC = () => {
     );
 };
 
-  export default Home;
+  export default About;
