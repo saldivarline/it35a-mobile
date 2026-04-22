@@ -46,11 +46,9 @@ import {
                 <IonIcon icon={homeOutline} slot="start" />
                 Home
               </IonButton>
-  
               <IonButton routerLink="/app/about" routerDirection="forward" expand="full">
               About
               </IonButton>
-  
               <IonButton routerLink="/" routerDirection="back" expand="full">
                 <IonIcon icon={logOutOutline} slot="start" />
                 Logout
